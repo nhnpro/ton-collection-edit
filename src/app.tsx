@@ -56,7 +56,7 @@ export function App() {
 
   return (
     <TonConnectUIProvider
-      manifestUrl="https://minter.ton.org/tonconnect-manifest.json"
+      manifestUrl="https://cdn.toncenter.app/tonconnect-manifest.json"
       walletsListConfiguration={{
         includeWallets: [
           {
